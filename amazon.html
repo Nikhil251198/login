@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .child {
+            background-color: white;
+            border: 2px solid red;
+            font-size: 30px;
+            font-weight: 900;
+        }
+
+        .main {
+            display: grid;
+
+            grid-template-columns: repeat(8, minmax(160px, 1fr));
+            grid-auto-rows: 200px 120px 200px 200px 200px;
+
+            /* row-gap: 20px;
+        column-gap: 20px; */
+            gap: 20px;
+        }
+        #box1 img{
+            height: 400px;
+            width: 1500px;
+        }
+
+        #box1 {
+            grid-row: 1/2;
+            grid-column: 1/9;
+            
+
+        }
+        #box2 img{
+            height:250px ;
+            width: 300px;
+            padding: 10px;
+
+        }
+
+        #box2 {
+            grid-row: 2/4;
+            grid-column: 1/3;
+        }
+
+        #box3 {
+            grid-row: 2/4;
+            grid-column: 3/5;
+        }
+
+        #box4 {
+            grid-row: 2/4;
+            grid-column: 5/7;
+        }
+
+        #box5 {
+            grid-row: 2/3;
+            grid-column: 7/9;
+        }
+
+        #box6 {
+            grid-row: 3/4;
+            grid-column: 7/9;
+        }
+
+        #box5 button {
+            margin-left: 20px;
+            width: 150px;
+            padding: 4px;
+            border-radius: 5px;
+            border: none;
+            background: linear-gradient(yellow, yellowgreen);
+        }
+
+        #box5 h1 {
+            font-size: 20px;
+            padding-right: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <box class="main">
+        <box class="child" id="box1" >
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Laptops/MayART23/KSD/unrec/PC_Hero_3000x1200_Electronics._CB591358470_.jpg"
+                alt="" srcset="">
+        </box>
+        <box class="child" id="box2"><h3 style="font-size: 20px;">Get Summer Sale</h3>
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/MayArt23/KSD_PC-CC_1X._SY304_CB591352121_.jpg"
+                alt="" srcset="">
+                
+        </box>
+        <box class="child" id="box3"><h6 style="text-align: center; font-size: 20px;">Upto 60% off| styles for men</h6>
+        
+        <box class="child" id="box4">box4</box>
+        <box class="child" id="box5">
+
+
+        </box>
+        <box class="child" id="box6">box6</box>
+        <box class="child" id="box7">box7</box>
+        <box class="child" id="box8">box8</box>
+        <box class="child" id="box9">box9</box>
+        <box class="child" id="box10">box4</box>
+        <box class="child" id="box11">box5</box>
+        <box class="child" id="box12">box6</box>
+        <box class="child" id="box13">box7</box>
+        <box class="child" id="box14">box8</box>
+        <box class="child" id="box15">box9</box>
+        <box class="child" id="box16">box4</box>
+        <box class="child" id="box17">box5</box>
+        <box class="child" id="box18">box6</box>
+        <box class="child" id="box19">box7</box>
+        <box class="child" id="box20">box8</box>
+        <box class="child" id="box21">box9</box>
+
+
+    </box>
+</body>
+
+</html>
